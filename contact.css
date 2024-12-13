@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Contact Section */
+.contact-section {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h2, .contact-section h3 {
+  text-align: center;
+  color: #28a745;
+}
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.contact-info li {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+.contact-info a {
+  color: #28a745;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+/* Message Form */
+.message-form {
+  margin-top: 20px;
+}
+
+.message-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.message-form input, 
+.message-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.message-form input:focus, 
+.message-form textarea:focus {
+  border-color: #28a745;
+  outline: none;
+}
+
+.btn-submit {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+  background-color: #218838;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
